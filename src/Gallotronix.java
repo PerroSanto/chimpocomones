@@ -7,7 +7,8 @@ public class Gallotronix extends Chimpocomon{
         final int nivelDeVida = 25;
         final ArrayList<Ataques> listaDeAtaques = new ArrayList<Ataques>();
         final GarraMecanica garraMecanica = new GarraMecanica();
-        listaDeAtaques.add(garraMecanica);
+        final AtaqueVeloz ataqueVeloz = new AtaqueVeloz(garraMecanica);
+        listaDeAtaques.add(ataqueVeloz);
         this.setNombre(nombre);
         this.setNivelDeVida(nivelDeVida);
         this.setListaDeAtaques(listaDeAtaques);
