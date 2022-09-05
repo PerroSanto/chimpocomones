@@ -41,7 +41,7 @@ public abstract class Chimpocomon {
         int range = (cantidadAtaques - 1) - 0 + 1;
         int ataqueRandom = (int) (Math.random() * range) + 0;
         this.listaDeAtaques.get(ataqueRandom).realizarAtaque(otro);
-        System.out.println(this.nombre + "  ==> Atacando a ==> " + otro.nombre + " ==> Nivel de vida del enemigo ==  " + otro.NivelDeVida);
+        System.out.println(this.nombre + "  ==> Atacando a ==> " + otro.nombre + " ==> Nivel de vida del atacado==  " + otro.getNivelDeVida());
     }
 
     public void recibirDanio(int unvalor) {
@@ -70,10 +70,11 @@ public abstract class Chimpocomon {
 
     public boolean estaMuerto() {
         return NivelDeVida <= 0;
+        
     }
 
     private void victoria() {
-        System.out.println("Has ganado " + this.nombre + "!!!");
+        System.out.println("Has ganado !!!");
         System.exit(0);
     }
     

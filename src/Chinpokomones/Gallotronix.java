@@ -9,7 +9,7 @@ public class Gallotronix extends Chimpocomon{
         final GarraMecanica garraMecanica = new GarraMecanica();
         final AtaqueVeloz ataqueVeloz = new AtaqueVeloz(garraMecanica);
         this.getListaDeAtaques().add(ataqueVeloz);
-        this.getListaDeAtaques().add(garraMecanica);
+        //this.getListaDeAtaques().add(garraMecanica);
         this.setNombre("Gallotronix");
         this.setNivelDeVida(25);
         System.out.println(this.getNivelDeVida());

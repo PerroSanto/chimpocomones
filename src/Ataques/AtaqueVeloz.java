@@ -13,6 +13,7 @@ public class AtaqueVeloz extends AtaquesDecorator{
 
         if (fiftyFyfty == 0){
             getAtaquePower().realizarAtaque(otro);
+            System.out.println("entra en ataque veloz");
         } else
             System.out.println("Tuvo suerte y atacó dos veces");
             getAtaquePower().realizarAtaque(otro);
