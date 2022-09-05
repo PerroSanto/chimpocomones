@@ -1,5 +1,8 @@
+package Chinpokomones;
 import java.util.ArrayList;
 import java.util.List;
+
+import Ataques.Ataques;
 
 public abstract class Chimpocomon {
     private String nombre;
@@ -72,6 +75,10 @@ public abstract class Chimpocomon {
     private void victoria() {
         System.out.println("Has ganado " + this.nombre + "!!!");
         System.exit(0);
+    }
+    
+    public void recibirVida(int unvalor){
+        this.NivelDeVida = this.NivelDeVida + unvalor;
     }
 
     @Override

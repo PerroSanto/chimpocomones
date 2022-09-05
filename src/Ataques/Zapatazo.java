@@ -1,3 +1,6 @@
+package Ataques;
+import Chinpokomones.Chimpocomon;
+
 public class Zapatazo implements Ataques {
 
     int danio = 1;

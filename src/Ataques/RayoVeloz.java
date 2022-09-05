@@ -1,3 +1,6 @@
+package Ataques;
+import Chinpokomones.Chimpocomon;
+
 public class RayoVeloz implements Ataques{
 
     int danio = 3;

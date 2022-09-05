@@ -1,3 +1,6 @@
+package Ataques;
+import Chinpokomones.Chimpocomon;
+
 public class AtaqueCritico extends AtaquesDecorator{
 
     public AtaqueCritico(Ataques ataque) {

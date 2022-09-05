@@ -1,6 +1,9 @@
-public class GarraMecanica implements Ataques{
+package Ataques;
+import Chinpokomones.Chimpocomon;
 
-        int danio = 2;
+public class CanionConico implements Ataques{
+
+        int danio = 4;
 
         @Override
         public void realizarAtaque(Chimpocomon otro) {

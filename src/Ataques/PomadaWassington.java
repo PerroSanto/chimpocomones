@@ -1,10 +1,13 @@
+package Ataques;
+import Chinpokomones.Chimpocomon;
+
 public class PomadaWassington implements Ataques{
 
-    int danio = 3;
+    int danio = 5;
 
     @Override
     public void realizarAtaque(Chimpocomon otro) {
-        otro.recibirDanio(danio);
+        otro.recibirVida(danio);
     }
 }
 

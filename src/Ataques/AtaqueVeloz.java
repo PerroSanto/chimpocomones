@@ -1,3 +1,6 @@
+package Ataques;
+import Chinpokomones.Chimpocomon;
+
 public class AtaqueVeloz extends AtaquesDecorator{
 
     public AtaqueVeloz(Ataques ataque) {
